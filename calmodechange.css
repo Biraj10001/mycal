@@ -1,0 +1,241 @@
+:root{
+
+    --var: rgb(124, 1, 232);
+}
+:root{
+
+    --var1: rgb(14, 14, 70);
+}
+
+* {
+    user-select: none;
+  }
+  #mode{
+  display: inline-block;
+  border: 2px solid rgb(245, 243, 243);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 0.5%;
+  color: var(--var1);
+  border-radius: 20px;
+  background-color:var(--var) ;
+  cursor: pointer;
+  }
+  #mode:active{
+  display: inline-block;
+  border: 2px solid rgb(245, 243, 243);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 0.5%;
+  color: var(--var);
+  border-radius: 20px;
+  background-color:var(--var1) ;
+  
+  }
+  .hideen{
+    display: none;
+  }
+  .shortcuts{
+  
+    /* display: inline-block; */
+    /* margin-top: 5px; */
+    border: 2px solid var(--var1);
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  /* right: 0; */
+    text-align: center;
+    width: 99.75%;
+    font-weight: bold;
+    font-size: 110%;
+  
+  }
+  body {
+    /* background-color: blue; */
+    background-image: url(https://i.pinimg.com/originals/10/47/9d/10479d5836d111672f172327f8c8c1dd.jpg);
+    background-size: cover;
+    /* background-size: auto; */
+    /* background-repeat: no-repeat; */
+    /* text-align: center; */
+  }
+  h1 {
+    margin-top: -1%;
+    border: 2px solid var(--var1);
+    display: inline-block;
+    background-color: var(--var1);
+    padding: 2px;
+    border-radius: 20px;
+    width: 26%;
+  }
+  .cal {
+    display: inline-block;
+    border: 2px solid var(--var1);
+    background-color: var(--var1);
+    border-radius: 20px;
+    
+  }
+  .container {
+    text-align: center;
+    padding: 10px 10px;
+    /* display: inline-block; */
+    margin: auto;
+  }
+  table {
+    /* margin: auto; */
+    margin-top: 20px;
+    padding: 10px 20px;
+  
+  }
+  input {
+    color: var(--var1);
+    background-color: rgba(205, 255, 255, 0.436);
+    margin-top: 20px;
+    user-select: none;
+    width: 341px;
+    height: 73px;
+    border: 2px solid var(--var1);
+    border-radius: 20px;
+    font-size: 25px;
+  }
+  .btn {
+    background-color: var(--var);
+    width: 77px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--var);
+    margin-left:10px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .heading {
+    display: inline-block;
+    border: 3px solid var(--var1);
+    background-color:  var(--var);
+    padding: 5px;
+    border-radius: 20px;
+    width: 95%;
+  }
+  
+  .btn:active {
+    background-color: var(--var1);
+    width: 77px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 629px) {
+  
+    .hideen{
+      
+      display: contents;
+      color:  var(--var);
+      display: inline-block;
+      border: 2px solid  var(--var);
+      background-color: var(--var1);
+      padding: 4%;
+      /* justify-content: center; */
+      /* margin-left: 100px; */
+      /* margin: auto; */
+      /* text-align: center; */
+      margin-left: 25%;
+    }
+  
+    h1{
+  
+      display: none;
+    }
+  
+    .heading{
+      
+      /* border: 2px solid rgb(223, 4, 4); */
+      display: none;
+    }
+  
+    .cal{
+  
+      margin-top: 19%;
+    }
+  }
+  
+  @media only screen and (max-width: 435px) {
+  .shortcuts{
+  
+    display: none;
+  
+    /* display: none; */
+  }
+  }
+  
+  @media only screen and (max-width: 447px) {
+  
+    .cal {
+      /* margin-top: 97.1%; */
+      display: inline-block;
+      /* border: 2px solid var(--var1); */  
+      background-color: var(--var1);
+      border-radius: 15px;
+      
+    }
+    .container {
+      text-align: center;
+      padding: 1px 10px;
+      /* display: inline-block; */
+      margin: auto;
+    }
+    table {
+      /* margin: auto; */
+      margin-top: 2px;
+      padding: 15px 2px;
+    
+    }
+    input {
+      color: var(--var1);
+      background-color: rgba(87, 158, 159, 0.752);
+      margin-top: 5px;
+      user-select: none;
+      width: 270px;
+      height: 70px;
+      border: 2px solid var(--var1);
+      border-radius: 10px;
+      font-size: 22px;
+    }
+    .btn {
+      background-color: var(--var);
+      width: 60px;
+      height: 60px;
+      font-size: 17px;
+      border-radius: 15px;
+      border: 1px solid var(--var);
+      margin-left:5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+     
+    }
+    
+    .heading {
+      display: inline-block;
+      border: 3px solid var(--var1);
+      background-color: var(--var);
+      padding: 5px;
+      border-radius: 20px;
+      width: 95%;
+    }
+    
+    .btn:active {
+      background-color: var(--var1);
+      width: 60px;
+      height: 60px;
+      font-size: 17px;
+      border-radius: 15px;
+      color: white;
+    }
+  
+    }
